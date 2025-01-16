@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Avaliação Semestral{% endblock %}
+
+{% block page_content %}
+<div class="container mt-5">
+    <h1>Avaliação semestral</h1>
+    <p><strong>Aluno:</strong> {{ aluno_nome }}</p>
+    <p><strong>Prontuário:</strong> {{ prontuario }}</p>
+    <p>A data e hora local é {{ data_hora_local }}.</p>
+</div>
+{% endblock %}
